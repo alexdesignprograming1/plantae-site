@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Title -->
-    <title>Plantae</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
-
-    <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
+<%- include ('./partials/header.ejs') %>  
+<%- include ('./partials/homenavbar.ejs') %>  
 
 <body>
     <!-- Preloader -->
@@ -25,94 +9,6 @@
             <img src="img/core-img/leaf.png" alt="">
         </div>
     </div>
-
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-
-        <!-- ***** Top Header Area ***** -->
-        <div class="top-header-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="top-header-content d-flex align-items-center justify-content-between">
-                            <!-- Top Header Content -->
-                            <div class="top-header-meta">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="alexsilva10san@gmail.com"><i
-                    class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: alexsilva10san@gmail.com</span></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+55 (81) 98888-8888"><i class="fa fa-phone"
-                    aria-hidden="true"></i> <span>Whatsapp: +55 (81) 98888-8888</span></a>
-                            </div>
-
-                            <!-- Top Header Content -->
-                            <div class="top-header-meta d-flex">
-                                <!-- Login -->
-                                <!-- <div class="login">
-                  <a href="#"><i class="fa fa-user" aria-hidden="true"></i> <span>Login</span></a>
-                </div> -->
-                                <!-- Cart -->
-                                <div class="cart">
-                                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Carrinho <span
-                  class="cart-quantity">(1)</span></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ***** Navbar Area ***** -->
-        <div class="alazea-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="alazeaNav">
-
-                        <!-- Nav Brand -->
-                        <a href="/" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- Close Button -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Navbar Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">Sobre nós</a></li>
-                                    <li><a href="#">Loja</a>
-                                        <ul class="dropdown">
-                                            <li><a href="about.html">Nada</a></li>
-                                            <li><a href="shop.html">Nada</a></li>
-                                            <li><a href="portfolio.html">Nada</a></li>
-                                            <li><a href="blog.html">Nada</a>
-                                                <li><a href="contact.html">Nada</a></li>
-                                        </ul>
-                                        </li>
-                                        <li><a href="#">Como receber plantas em casa?</a></li>
-                                        <li><a href="contact.html">Contato</a></li>
-                                </ul>
-
-                            </div>
-                            <!-- Navbar End -->
-                        </div>
-                    </nav>
-
-                </div>
-            </div>
-        </div>
-        </div>
-    </header>
-    <!-- ##### Header Area End ##### -->
 
     <!-- ##### Hero Area Start ##### -->
     <section class="hero-area">
@@ -131,7 +27,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis nisl lobortis eu. Duis diam augue, dapibus ut dolor
                                     at, mattis maximus dolor.</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#" class="btn alazea-btn mr-30">LOJA</a>
+                                    <a href="/shop" class="btn alazea-btn mr-30">LOJA</a>
                                     <a href="#" class="btn alazea-btn active">CONTATO</a>
                                 </div>
                             </div>
@@ -153,7 +49,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis nisl lobortis eu. Duis diam augue, dapibus ut dolor
                                     at, mattis maximus dolor.</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#" class="btn alazea-btn mr-30">LOJA</a>
+                                    <a href="/shop" class="btn alazea-btn mr-30">LOJA</a>
                                     <a href="#" class="btn alazea-btn active">CONTATO</a>
                                 </div>
                             </div>
@@ -188,13 +84,11 @@
                         <div class="product-img">
                             <a href="shop-details.html"><img src="img/bg-img/9.jpg" alt=""></a>
                             <!-- Product Tag -->
-                            <div class="product-tag">
+                            <!-- <div class="product-tag">
                                 <a href="#">TOP</a>
-                            </div>
-                            <div class="product-meta d-flex">
-                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                            </div> -->
+                            <div class="product-meta d-flex justify-content-center">
                                 <a href="cart.html" class="add-to-cart-btn">Add Carrinho</a>
-                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
                             </div>
                         </div>
                         <!-- Product Info -->
@@ -213,10 +107,8 @@
                         <!-- Product Image -->
                         <div class="product-img">
                             <a href="shop-details.html"><img src="img/bg-img/10.jpg" alt=""></a>
-                            <div class="product-meta d-flex">
-                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                            <div class="product-meta d-flex justify-content-center">
                                 <a href="cart.html" class="add-to-cart-btn">Add Carrinho</a>
-                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
                             </div>
                         </div>
                         <!-- Product Info -->
@@ -235,10 +127,8 @@
                         <!-- Product Image -->
                         <div class="product-img">
                             <a href="shop-details.html"><img src="img/bg-img/11.jpg" alt=""></a>
-                            <div class="product-meta d-flex">
-                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                            <div class="product-meta d-flex justify-content-center">
                                 <a href="cart.html" class="add-to-cart-btn">Add Carrinho</a>
-                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
                             </div>
                         </div>
                         <!-- Product Info -->
@@ -258,13 +148,11 @@
                         <div class="product-img">
                             <a href="shop-details.html"><img src="img/bg-img/12.jpg" alt=""></a>
                             <!-- Product Tag -->
-                            <div class="product-tag sale-tag">
+                            <!-- <div class="product-tag sale-tag">
                                 <a href="#">TOP</a>
-                            </div>
-                            <div class="product-meta d-flex">
-                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                            </div> -->
+                            <div class="product-meta d-flex justify-content-center">
                                 <a href="cart.html" class="add-to-cart-btn">Add Carrinho</a>
-                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
                             </div>
                         </div>
                         <!-- Product Info -->
@@ -278,7 +166,7 @@
                 </div>
 
                 <div class="col-12 text-center">
-                    <a href="#" class="btn alazea-btn">Ver todos</a>
+                    <a href="/shop" class="btn alazea-btn">Ver todos</a>
                 </div>
 
             </div>
@@ -287,14 +175,14 @@
     <!-- ##### Product Area End ##### -->
 
     <!-- ##### Testimonial Area Start ##### -->
-    <section class="testimonial-area section-padding-100">
+    <!-- <section class="testimonial-area section-padding-100">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="testimonials-slides owl-carousel">
+                    <div class="testimonials-slides owl-carousel"> -->
 
                         <!-- Single Testimonial Slide -->
-                        <div class="single-testimonial-slide">
+                        <!-- <div class="single-testimonial-slide">
                             <div class="row align-items-center">
                                 <div class="col-12 col-md-6">
                                     <div class="testimonial-thumb">
@@ -302,9 +190,9 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <div class="testimonial-content">
+                                    <div class="testimonial-content"> -->
                                         <!-- Section Heading -->
-                                        <div class="section-heading">
+                                        <!-- <div class="section-heading">
                                             <h2>DEPOIMENTOS</h2>
                                             <p>Some kind words from clients about Alazea</p>
                                         </div>
@@ -312,165 +200,17 @@
                                             also manageable garden as a result. Thank you!”</p>
                                         <div class="testimonial-author-info">
                                             <h6>Mr. Nick Jonas</h6>
-                                        </div>
-                                    </div>
+                                        </div> -->
+                                    <!-- </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- Single Testimonial Slide -->
-                        <div class="single-testimonial-slide">
-                            <div class="row align-items-center">
-                                <div class="col-12 col-md-6">
-                                    <div class="testimonial-thumb">
-                                        <img src="img/bg-img/14.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="testimonial-content">
-                                        <!-- Section Heading -->
-                                        <div class="section-heading">
-                                            <h2>Depoimentos</h2>
-                                            <p>Some kind words from clients about Alazea</p>
-                                        </div>
-                                        <p>“Alazea is a pleasure to work with. Their ideas are creative, they came up with imaginative solutions to some tricky issues, their landscaping and planting contacts are equally excellent we have a beautiful but
-                                            also manageable garden as a result. Thank you!”</p>
-                                        <div class="testimonial-author-info">
-                                            <h6>Mr. Nazrul Islam</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Testimonial Slide -->
-                        <div class="single-testimonial-slide">
-                            <div class="row align-items-center">
-                                <div class="col-12 col-md-6">
-                                    <div class="testimonial-thumb">
-                                        <img src="img/bg-img/15.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="testimonial-content">
-                                        <!-- Section Heading -->
-                                        <div class="section-heading">
-                                            <h2>Depoimentos</h2>
-                                            <p>Some kind words from clients about Alazea</p>
-                                        </div>
-                                        <p>“Alazea is a pleasure to work with. Their ideas are creative, they came up with imaginative solutions to some tricky issues, their landscaping and planting contacts are equally excellent we have a beautiful but
-                                            also manageable garden as a result. Thank you!”</p>
-                                        <div class="testimonial-author-info">
-                                            <h6>Mr. Jonas Nick</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                        </div>                               
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ##### Testimonial Area End ##### -->
 
-    <!-- ##### Contact Area Start ##### -->
-    <!-- ##### Contact Area End ##### -->
-
-    <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area bg-img" style="background-image: url(img/bg-img/3.jpg);">
-        <!-- Main Footer Area -->
-        <div class="main-footer-area">
-            <div class="container">
-                <div class="row">
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-6">
-                        <div class="single-footer-widget">
-                            <div class="footer-logo mb-30">
-                                <a href="#"><img src="img/core-img/logo.pnga" alt=""></a>
-                            </div>
-                            <p>Lorem ipsum dolor sit samet, consectetur adipiscing elit. India situs atione mantor</p>
-                            <div class="social-info">
-                                <!-- <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a> -->
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                                <!-- <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-6">
-                        <div class="single-footer-widget">
-                            <div class="widget-title">
-                                <h5>CONTATO</h5>
-                            </div>
-
-                            <div class="contact-information">
-                                <p><span>Rua:</span> 505 Cidade Universitaria, Caxánga</p>
-                                <p><span>Fone:</span> +55 (81) 98888-8888</p>
-                                <p><span>Email:</span> alexsilva10san@gmail.com</p>
-                                <p><span>Aberto de:</span> Seg - Sex: 08:00 AM to 18:00 PM</p>
-                                <p><span>Final de semana:</span> Sab: 08:00 PM to 15:00 PM</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer Bottom Area -->
-        <div class="footer-bottom-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="border-line"></div>
-                    </div>
-                    <!-- Copywrite Text -->
-                    <div class="col-12 col-md-6">
-                        <div class="copywrite-text">
-                            <p>&copy; Copyright &copy;
-                                <script>
-                                    document.write(new Date().getFullYear());
-                                </script> Todos direitos reservados | Este modelo é feito com <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://alexdesign.epizy.com/" target="_blank">AlexDesignPrograming</a>
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Footer Nav -->
-                    <div class="col-12 col-md-6">
-                        <div class="footer-nav">
-                            <nav>
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Sobre Nós</a></li>
-                                    <li><a href="#">Loja</a></li>
-                                    <li><a href="#">Como Receber Plantas em Casa?</a></li>
-                                    <li><a href="#">Contato</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- ##### Footer Area End ##### -->
-
-    <!-- ##### All Javascript Files ##### -->
-    <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
 </body>
-
-</html>
+<%- include ('./partials/footer.ejs') %> 

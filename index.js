@@ -16,6 +16,14 @@ app.get("/", (req, res) => {
   res.render("index")
 })
 
+app.get("/shop", (req, res) => {
+  res.render("shop");
+})
+
+app.get("/product-page", (req, res) => {
+  res.render("shop-details");
+})
+
 app.listen(8080, () => {
   console.log("O servidor está rodando!");
 });
