@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800");
 
-/*I mport All CSS */
+/*Import All CSS */
 
 @import url(bootstrap.min.css);
 @import url(classy-nav.css);
@@ -71,7 +71,7 @@ img {
 }
 
 
-/* :: 3.1.0 Spacing */
+/* Spacing */
 
 .mt-15 {
     margin-top: 15px !important;
@@ -138,7 +138,7 @@ img {
 }
 
 
-/* :: 3.2.0 Height */
+/*  Height */
 
 .height-400 {
     height: 400px;
@@ -161,7 +161,7 @@ img {
 }
 
 
-/* :: 3.3.0 Section Padding */
+/* Section Padding */
 
 .section-padding-100 {
     padding-top: 100px;
@@ -184,7 +184,7 @@ img {
 }
 
 
-/* :: 3.4.0 Section Heading */
+/* Section Heading */
 
 .section-heading {
     position: relative;
@@ -211,7 +211,7 @@ img {
 }
 
 
-/* :: 3.5.0 Preloader */
+/* Preloader */
 
 .preloader {
     background-color: #f2f4f5;
@@ -280,7 +280,7 @@ img {
 }
 
 
-/* :: 3.6.0 Miscellaneous */
+/* Miscellaneous */
 
 .bg-img {
     background-position: center center;
@@ -335,7 +335,7 @@ img {
 }
 
 
-/* :: 3.7.0 ScrollUp */
+/* ScrollUp */
 
 #scrollUp {
     background-color: #70c745;
@@ -358,7 +358,7 @@ img {
 }
 
 
-/* :: 3.8.0 alazea Button */
+/* alazea Button */
 
 .alazea-btn {
     -webkit-transition-duration: 400ms;
@@ -391,7 +391,7 @@ img {
 }
 
 
-/* :: 4.0 Header Area CSS */
+/* Header Area CSS */
 
 .header-area {
     position: absolute;
@@ -676,7 +676,7 @@ img {
 }
 
 
-/* :: 5.0 Hero Slides Area */
+/* Hero Slides Area */
 
 .hero-area,
 .hero-post-slides {
@@ -825,7 +825,7 @@ img {
 }
 
 
-/* :: 7.0 New Arrivals Products Area */
+/* New Arrivals Products Area */
 
 .single-product-area {
     position: relative;
@@ -1400,7 +1400,7 @@ img {
     color: #303030;
 }
 
-/* :: 9.0 Cart Area CSS */
+/* Cart Area CSS */
 
 .cart-table {
     position: relative;
@@ -1660,7 +1660,7 @@ img {
 }
 
 
-/* :: 10.0 Checkout Area CSS */
+/* Checkout Area CSS */
 
 .checkout_area {
     position: relative;
@@ -1762,7 +1762,7 @@ img {
 }
 
 
-/* :: 11.0 Testimonial Area CSS */
+/* Testimonial Area CSS */
 
 .testimonials-slides {
     position: relative;
@@ -1861,7 +1861,7 @@ img {
 }
 
 
-/* :: 14.0 Team Member Area CSS */
+/* Team Member Area CSS 
 
 .single-team-member {
     position: relative;
@@ -1915,8 +1915,9 @@ img {
     visibility: visible;
 }
 
+* /
 
-/* :: 15.0 Portfolio Area CSS */
+/* Portfolio Area CSS */
 
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
@@ -1975,7 +1976,7 @@ img {
 }
 
 
-/* :: 16.0 Cool Facts Area CSS */
+/* Cool Facts Area CSS */
 
 .cool-facts-area {
     position: relative;
@@ -2033,7 +2034,7 @@ img {
 }
 
 
-/* :: 17.0 Footer Area CSS */
+/* Footer Area CSS */
 
 .footer-area {
     position: relative;
@@ -2293,7 +2294,7 @@ img {
 }
 
 
-/* :: 18.0 Breadcumb Area CSS */
+/* Breadcumb Area CSS */
 
 .breadcrumb-area {
     position: relative;
@@ -2362,7 +2363,7 @@ img {
 }
 
 
-/*aaaaa*/
+/* Pagination */
 
 .pagination {
     position: relative;
@@ -2421,7 +2422,7 @@ img {
 }
 
 
-/* :: 20.0 Comment Area */
+/* Comment Area */
 
 .comment_area {
     position: relative;
@@ -2545,7 +2546,7 @@ img {
 }
 
 
-/* :: 21.0 Leave A Reply Area CSS */
+/* Leave A Reply Area CSS */
 
 .leave-comment-area {
     position: relative;
@@ -2581,7 +2582,7 @@ img {
 }
 
 
-/* :: 22.0 Sidebar Area CSS */
+/* Sidebar Area CSS */
 
 @media only screen and (max-width: 767px) {
     .post-sidebar-area {
@@ -2948,7 +2949,7 @@ img {
 }
 
 
-/* :: 23.0 Contact Area CSS */
+/* Contact Area CSS */
 
 .map-area {
     position: relative;
